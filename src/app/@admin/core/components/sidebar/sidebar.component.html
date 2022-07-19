@@ -1,0 +1,12 @@
+   <!-- Sidebar-->
+   <div class="border-end bg-white" id="sidebar-wrapper">
+    <div class="sidebar-heading border-bottom bg-light">
+      <a [routerLink]="['/home']" routerLinkActive="router-link-active" >
+        Manhattan
+      </a> 
+    </div>
+    <div class="list-group list-group-flush">
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" [routerLink]="['/admin']" routerLinkActive="router-link-active" ><i class="fa-solid fa-table-columns"></i> Dashboard</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" [routerLink]="['/admin/users']" routerLinkActive="router-link-active" ><i class="fa-solid fa-users-viewfinder"></i> Users</a>
+    </div>
+</div>
