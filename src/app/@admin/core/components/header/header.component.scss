@@ -1,1 +1,8 @@
-@import "./../../../pages/admin.component.scss"
+@import "./../../../pages/admin.component.scss";
+
+.btn-primary {
+    color: $admin-secondary-color;
+    background-color: transparent;
+    border-color: transparent;
+}
+
