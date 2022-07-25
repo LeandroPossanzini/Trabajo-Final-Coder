@@ -1,0 +1,20 @@
+* {
+    color: rgba($color: #ffffff, $alpha: .8);
+}
+.logotype {
+    width: 5%;
+    text-align: left;
+    margin: 5px 0px 5px 10px;
+}
+
+p, a {
+    position: relative;
+}
+
+p {
+    top: 25%;
+    margin-right: 100px;
+}
+a {
+    top: 12%;
+}
