@@ -5,7 +5,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { GraphQLModule } from './@graphql/modules/graphql.module';
+import { Apollo } from 'apollo-angular';
 
 
 
@@ -17,9 +18,12 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AdminModule,
     PublicModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GraphQLModule
   ],
-  providers: [],
+  providers: [
+    Apollo
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
